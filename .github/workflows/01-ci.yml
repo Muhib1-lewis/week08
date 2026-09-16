@@ -165,3 +165,4 @@ jobs:
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:${{ github.sha }}
 # Trigger CI pipeline
+# redeploy for 9.1P monitoring task
